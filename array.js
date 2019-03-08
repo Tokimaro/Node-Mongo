@@ -1,5 +1,5 @@
 var array_counter = function (array) {
-  return "В масиве находится " + array.length + " elem";
+  return "В масиве находится " + array.length + " elems";
 };
 
 var multiply = function (x,y) {
