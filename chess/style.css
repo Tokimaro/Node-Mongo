@@ -1,0 +1,54 @@
+body{
+background-color: rgb(59,59,61);
+}
+
+#mainChessBoard
+{
+    width:850px;
+    height:800px;
+     margin: auto;
+}
+
+#mainb
+{
+ width:100px;
+ height:100px;
+ float:left;
+ background-color:rgb(92,54,17);
+}
+
+#mainw
+{
+ width:100px;
+ height:100px;
+ float:left;
+ background-color:rgb(204,146,66);
+}
+
+.letters
+{
+  width:800px;
+  table-layout: fixed;
+  display: table;
+  margin: auto;
+  padding-left: 50px;
+}
+
+span {
+    display: table-cell;
+    text-align: left;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    color: rgb(225,225,232);
+    font-size: 200%;
+}
+#letterBoard{
+  width:100px;
+  height:100px;
+  vertical-align:middle;
+   display:table-cell;
+   text-align: left;
+   padding-left: 10px;
+   color: rgb(225,225,232);
+   font-size: 200%;
+}
