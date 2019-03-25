@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-  var letter = ["a","b","c","d","e","f","g","j"]
+  var letter = ["a","b","c","d","e","f","g","j"];
   $("#start").click(function(){
     for (var j=0; j <= 3; j++) {
       for (var i = 0; i < 8; i++){
@@ -46,4 +46,10 @@ $(document).ready(function(){
   }
   $("img").css({"height":"98px","width":"63px","margin-left": "10px"});
 });
+  $(".b1").click(function(){
+    link=this.childNodes[0].src;
+  //  alert(link);
+//link=$(this);
+console.log(link);
+  });
 });
