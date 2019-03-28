@@ -102,7 +102,8 @@ $("img").addClass("a22");
   $(".a22").click(function(){
     var pos = ($(this).attr("src")).split("/");
     pos[1]="w30.png"
-    $(this).remove('img');
+    
+  //  $(this).remove("img");
   //var end = pos.join('/');
     //$(this).attr("src", end);
     //console.log(end);
